@@ -1,0 +1,78 @@
+<!DOCTYPE> 
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<h1 id ="name">CRYSTALS COLLECTOR</h1>
+	</header>
+	
+	<div class="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+		<p>There are four CRYSTALS below. By clicking each CRYSTAL, you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to the random number. You lose the game if your total score is more than the random number.</p>
+		<p>The value of each CRYSTAL is hidden from you until you click on it.</p>
+		<p>Each time the game starts, each CRYSTAL will have different values than in preceding games.</p>
+	</div>
+
+	<div id="main-container" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="random">
+					<div class="number"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-container" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="outcome">
+					Wins:<div id='wins'></div>
+					Losses:<div id='losses'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-container" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class='power'>
+					<img src="assets/images/blue_crystal.png" alt="blue-crystal" style="width:25%" class='click' id='blue'>
+					<img src="assets/images/red_crystal.png" alt="red-crystal" style="width:25%" class='click' id='red'>
+					<img src="assets/images/yellow_crystal.png" alt="yellow-crystal" style="width:25%" class='click' id='yellow'>
+					<img src="assets/images/green_crystal.png" alt="green-crystal" style="width:25%" class='click' id='green'>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-container" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class='score'>
+				<h3>Your total score is:</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-container" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class='math'></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

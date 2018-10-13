@@ -1,0 +1,158 @@
+body {
+	background-image: url("../images/triangular.png");
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 60px;
+	margin-top: 25px;
+	padding-top: 5px;
+	background-color: darkblue;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: aliceblue;
+
+}
+
+.name {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+p {
+	color: rgb(111, 117, 20);
+	font-size: 15px;
+	padding: 5px;
+}
+
+.instructions {
+	background-color: rgb(223, 226, 8);
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 165px;
+	margin-top: 10px;
+
+}
+
+.random {
+	margin: auto;
+	display: block;
+	width: 300px;
+	height: 60px;
+}
+
+.number {
+	background-color: cornflowerblue;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height:	60px;
+	margin-top: 10px;
+	color: darkblue;
+}
+
+.power {
+	display: flex;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.outcome {
+	background-color: rgb(7, 177, 7);
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 100px;
+	margin-top: 10px;
+	color: rgb(7, 78, 19);
+}
+
+.click {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.score {
+	background-color: rgb(196, 26, 26);
+	margin-top: 10px;
+	margin: auto;
+	width: 150px;
+	height: 35px;
+}
+
+h3 {
+	padding-top: 12px;
+	text-align: center;
+	color: white;
+}
+
+.math {
+	background-color: rgb(196, 26, 26);
+	font-size: 40px;
+	color: white;
+	margin: auto;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+}
+
+@media only screen and (max-width:640px) {
+	#name {
+	  width: 100%;
+	  max-width: 640px;
+
+	}
+  }
+  
+  @media only screen and (max-width:768px) {
+	.main-section {
+	  width: 100%;
+	  max-width: 768px;
+	  padding: 30px;
+	  margin: 0 0 40px;
+	  background: #fff;
+	  border: 1px solid #ddd;
+	}
+  }
+  
+  @media only screen and (max-width:980px) {
+	.main-section {
+	  width: 100%;
+	  max-width: 980px;
+	  padding: 30px;
+	  margin: 0 0 40px;
+	  background: #fff;
+	  border: 1px solid #ddd;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
